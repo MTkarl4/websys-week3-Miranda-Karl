@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Personal Website</title>
+    <style>
+    body {
+     background-image: url("headerbg.jpg");
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     margin: 0;
+     padding: 0;
+    }
+
+    .center-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+    }
+
+    .row-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     gap: 50px;
+     width: 90%;
+     margin: auto;
+     flex-wrap: nowrap;
+    }
+
+    ul, ol {
+        display: inline-block;
+        text-align: left;
+    }
+
+    header, nav, footer {
+        text-align: center;
+    }
+
+    .info-box{
+        width: 30%;
+        text-align: left;
+    }
+
+    .info-box h2{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Karl Richard T. Miranda, CTWBDEVL</h1>
+        <p>BSIT with specialization in MWA, at the National University</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Hobbies">Hobbies</a></li>
+            <li><a href="#Websites">Websites</a></li>
+            <li><a href="#Contacts">Contacts</a></li>
+            <li><a href="about.html">More information</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section id="About" class="center-container">
+        <h2>About</h2>
+        <img src="Mycat.png" alt="My Cat" width="200" height="200">
+        <p>
+        My name is Karl Richard T. Miranda, I live here in Manila, Philippines, <br>
+        I am currently studying MY bachelor of Science in Information Technology , MWA. Here in NU-Manila,<br>
+        I do play some online/offline games and my other hobbies in my freetime.
+        </p>
+    </section>
+
+    <hr>
+
+<div class="row-container">
+    
+    <section id="Hobbies" class="info-box">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing online/offline games</li>
+            <li>Listening to music</li>
+            <li>Watching TV series, Anime, Movies, Sitcoms</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="Websites" class="info-box">
+        <h2>Websites</h2>
+        <ol>
+            <li><a href="https://web.facebook.com/karl.miranda.859582">Facebook</a></li>
+            <li><a href="https://www.youtube.com/watch?v=g6oAo-iQSzE&list=RDMMg6oAo-iQSzE&start_radio=1">Youtube</a></li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section id="Contacts" class="info-box">
+        <h2>Contacts</h2>
+        <p>Email: miranda00karl@gmail.com<p>
+        <p>Cellphone Number: +63 916 262 1385</p>
+    </section>
+
+</div>
+
+    <hr>
+
+    <footer>
+        <p>Copyright &copy; 2026 Karl Richard T. Miranda</p>
+    </footer>
+
+</body>
+</html>
